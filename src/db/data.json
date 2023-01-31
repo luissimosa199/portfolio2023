@@ -1,0 +1,110 @@
+{
+  "skills": [
+    {
+      "name": "HTML",
+      "logo": "..."
+    },
+    {
+      "name": "CSS",
+      "logo": "..."
+    },
+    {
+      "name": "JavaScript",
+      "logo": "..."
+    },
+    {
+      "name": "TypeScript",
+      "logo": "..."
+    },
+    {
+      "name": "React",
+      "logo": "..."
+    },
+    {
+      "name": "Redux & RTK",
+      "logo": "..."
+    },
+    {
+      "name": "Bootstrap",
+      "logo": "..."
+    },
+    {
+      "name": "GIT",
+      "logo": "..."
+    },
+    {
+      "name": "GitHub",
+      "logo": "..."
+    },
+    {
+      "name": "NodeJS",
+      "logo": "..."
+    },
+    {
+      "name": "MongoDB",
+      "logo": "..."
+    },
+    {
+      "name": "MUI",
+      "logo": "..."
+    },
+    {
+      "name": "Express",
+      "logo": "..."
+    },
+    {
+      "name": "React Query",
+      "logo": "..."
+    },
+    {
+      "name": "JWT",
+      "logo": "..."
+    },
+    {
+      "name": "Styled Comps",
+      "logo": "..."
+    }
+  ],
+  "projects": [
+    {
+      "name": "XPenses",
+      "description": "Organizador de facturas y expensas para familias",
+      "imgSrc": "https://live.staticflickr.com/65535/52635152808_01b9afdf8a_n.jpg",
+      "codeLink": "https://github.com/luissimosa199/xpenses-frontend",
+      "liveLink": "https://xpenses-9b24.onrender.com",
+      "tags": [
+        "NodeJS",
+        "Express",
+        "React",
+        "Typescript",
+        "React Query",
+        "MUI",
+        "Styled Components",
+        "JWT"
+      ]
+    },
+    {
+      "name": "GBooks",
+      "description": "Buscador de libros gratis en Google Books",
+      "imgSrc": "https://live.staticflickr.com/65535/52269933104_032e0507ee_n.jpg",
+      "codeLink": "https://github.com/luissimosa199/gbooks",
+      "liveLink": "https://luissimosa199.github.io/gbooks/",
+      "tags": [
+        "React",
+        "Google Books API",
+        "RTK",
+        "React Router",
+        "Axios",
+        "MUI"
+      ]
+    },
+    {
+      "name": "GoScrum!",
+      "description": "App de organización de trabajo (Alkemy Skill Up)",
+      "imgSrc": "https://live.staticflickr.com/65535/52117874160_bd017e83ef_m.jpg",
+      "codeLink": "https://github.com/luissimosa199/goscrum-ls",
+      "liveLink": "https://luissimosa199.github.io/goscrum-ls/",
+      "tags": ["React", "Redux", "Formik", "Framer Motion", "React Router", "Sweet Alert"]
+    }
+  ]
+}
