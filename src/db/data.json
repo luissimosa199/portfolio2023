@@ -2,74 +2,74 @@
   "skills": [
     {
       "name": "HTML",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios-filled/50/null/html.png"
     },
     {
       "name": "CSS",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios-filled/50/null/css3.png"
     },
     {
       "name": "JavaScript",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios-filled/50/null/js.png"
     },
     {
       "name": "TypeScript",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios-filled/50/null/typescript.png"
     },
     {
       "name": "React",
-      "logo": "..."
+      "logo": "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
     },
     {
       "name": "Redux & RTK",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios-filled/50/null/redux.png"
     },
     {
       "name": "Bootstrap",
-      "logo": "..."
+      "logo": "https://img.icons8.com/external-those-icons-fill-those-icons/48/null/external-Bootstrap-social-media-those-icons-fill-those-icons.png"
     },
     {
       "name": "GIT",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios-filled/50/null/git.png"
     },
     {
       "name": "GitHub",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios-filled/50/null/github.png"
     },
     {
       "name": "NodeJS",
-      "logo": "..."
+      "logo": "https://img.icons8.com/windows/64/null/node-js.png"
     },
     {
       "name": "MongoDB",
-      "logo": "..."
+      "logo": "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/48/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png"
     },
     {
       "name": "MUI",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios-filled/50/null/m-key.png"
     },
     {
       "name": "Express",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios/50/null/express-js.png"
     },
     {
       "name": "React Query",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios/50/null/geometric-flowers.png"
     },
     {
       "name": "JWT",
-      "logo": "..."
+      "logo": "https://img.icons8.com/ios-filled/50/null/key-security.png"
     },
     {
       "name": "Styled Comps",
-      "logo": "..."
+      "logo": "https://img.icons8.com/external-bartama-glyph-64-bartama-graphic/64/null/external-Manicure-beauty-glyph-bartama-glyph-64-bartama-graphic.png"
     }
   ],
   "projects": [
     {
       "name": "XPenses",
       "description": "Organizador de facturas y expensas para familias",
-      "imgSrc": "https://live.staticflickr.com/65535/52635152808_01b9afdf8a_n.jpg",
+      "imgSrc": "https://live.staticflickr.com/65535/52663201468_b7e882bf85_m.jpg",
       "codeLink": "https://github.com/luissimosa199/xpenses-frontend",
       "liveLink": "https://xpenses-9b24.onrender.com",
       "tags": [
@@ -104,7 +104,31 @@
       "imgSrc": "https://live.staticflickr.com/65535/52117874160_bd017e83ef_m.jpg",
       "codeLink": "https://github.com/luissimosa199/goscrum-ls",
       "liveLink": "https://luissimosa199.github.io/goscrum-ls/",
-      "tags": ["React", "Redux", "Formik", "Framer Motion", "React Router", "Sweet Alert"]
+      "tags": [
+        "React",
+        "Redux",
+        "Formik",
+        "Framer Motion",
+        "React Router",
+        "Sweet Alert"
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/luis-simosa-43b860112/",
+      "icon": "https://img.icons8.com/ios-filled/40/ffffff/linkedin.png"
+    },
+    {
+      "name": "GitHub",
+      "link": "https://github.com/luissimosa199",
+      "icon": "https://img.icons8.com/ios-filled/40/ffffff/github.png"
+    },
+    {
+      "name": "Email",
+      "link": "mailto:simosa37@gmail.com",
+      "icon": "https://img.icons8.com/ios-filled/40/ffffff/gmail-new.png"
     }
   ]
 }

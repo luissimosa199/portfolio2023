@@ -11,8 +11,7 @@ function Skills() {
           {skills.map((e) => {
             return(
                 <li key={e.name}>
-                    {/* <img src={e.logo} alt={`${e.name} logo`} /> */}
-                    <p>{e.logo}</p>
+                    <img src={e.logo} alt={`${e.name} logo`} />
                     <h3>{e.name}</h3>
                 </li>
             )

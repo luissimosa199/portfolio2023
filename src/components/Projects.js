@@ -1,4 +1,5 @@
 import data from "../db/data.json";
+import PurpleDivider from "./PurpleDivider";
 
 function Projects() {
   const projects = data.projects;
@@ -34,6 +35,9 @@ function Projects() {
           </div>
         );
       })}
+      <div className="projects-divider">
+        <PurpleDivider/>
+      </div>
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import PurpleDivider from "./PurpleDivider";
+
 function Intro() {
   return (
     <div className="section intro">
@@ -7,7 +9,9 @@ function Intro() {
         herramientas y crear sitios interesantes y atractivos
       </p>
       <div className="intro-photo"></div>
-      <div className="intro-img"></div>
+      <div className="intro-img">
+        <PurpleDivider/>
+      </div>
 
     </div>
   );
