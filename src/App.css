@@ -112,12 +112,16 @@ header > * {
 
 /* SKILLS */
 
+.skills {
+  margin-bottom: 2rem;
+}
+
 .skills-box {
+  max-width: 550px;
   padding: 1rem;
   border-radius: 0.5rem;
   width: 90%;
   min-height: 25vh;
-  max-height: 80vh;
   box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
 }
 
@@ -126,6 +130,19 @@ header > * {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
+}
+
+@media (width < 540px) {
+  .skills-box {
+    width: fit-content;
+    padding: 2rem 4rem;
+  }
+
+  .skills-box ul {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+  }
 }
 
 .skills-box ul li {
@@ -163,9 +180,6 @@ header > * {
 .projects-links a {
   border: 3px solid #6e07f3;
   color: #6e07f3;
-
-  /* background-color: #6e07f3; */
-  /* color: white; */
   border-radius: 100vw;
   padding: 0.5rem 1rem;
   text-decoration: none;
