@@ -40,8 +40,6 @@ header > * {
   height: 15rem;
 }
 
-
-
 .intro-img {
   width: 100%;
   height: 10rem;
@@ -80,6 +78,7 @@ header > * {
 
 .about p {
   margin: 1rem;
+  max-width: 50rem;
 }
 
 .about-divider {
