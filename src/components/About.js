@@ -5,7 +5,7 @@ function About() {
     <div className="section about">
       <h2>Hola, me llamo Luis</h2>
       <p>
-        Me inicié en la programación a principios del 2021 impulsado por años de
+        Me inicié en la programación impulsado por años de
         interes en la automatización, las computadoras y el internet. Me
         considero una persona curiosa por naturaleza, siempre interesado en
         aprender nuevas herramientas y mejores practicas. Trato de hacer siempre
