@@ -1,4 +1,5 @@
 import data from "../db/data.json";
+// import Carrousel from "./Carrousel";
 import PurpleDivider from "./PurpleDivider";
 
 function Projects() {
@@ -15,18 +16,15 @@ function Projects() {
               <p>{e.description}</p>
             </div>
             <div className="projects-img">
-                <img src={e.imgSrc} alt={`${e.name} logo`} />
+              {/* <Carrousel imgData={e.imgSrc} /> */}
+              <img src={e.imgSrc} alt={`${e.name} logo`} />
             </div>
             <div className="projects-tags">
-                <ul>
-                    {e.tags.map((tag) => {
-                        return(
-                            <li key={tag}>
-                                {tag}
-                            </li>
-                        )
-                    })}
-                </ul>
+              <ul>
+                {e.tags.map((tag) => {
+                  return <li key={tag}>{tag}</li>;
+                })}
+              </ul>
             </div>
             <div className="projects-links">
               <a href={e.codeLink}>Ir al código</a>
@@ -36,7 +34,7 @@ function Projects() {
         );
       })}
       <div className="projects-divider">
-        <PurpleDivider/>
+        <PurpleDivider />
       </div>
     </div>
   );
