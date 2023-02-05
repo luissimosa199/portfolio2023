@@ -2,26 +2,23 @@ import WhiteDivider from "./WhiteDivider.js";
 
 function About() {
   return (
-    <div className="section about">
-      <h2>Hola, me llamo Luis</h2>
+    <div id="about" className="section about">
+      <h2>Sobre mi</h2>
       <p>
-        Me inicié en la programación impulsado por años de
-        interes en la automatización, las computadoras y el internet. Me
-        considero una persona curiosa por naturaleza, siempre interesado en
-        aprender nuevas herramientas y mejores practicas. Trato de hacer siempre
-        algo nuevo con cada proyecto y de sacarle el 100% de provecho a los
-        conocimientos que he recolectado.
+        Me inicié en la programación impulsado por años de interes en la
+        automatización, las computadoras y el internet.
       </p>
       <p>
-        A continuación te muestro las herramientas que he aprendido en el camino
-        así como los proyectos que han resultado de este proceso
+        Me considero una persona curiosa por naturaleza, siempre interesado en
+        aprender nuevas herramientas y mejores practicas.
       </p>
       <p>
-        Al final encontrarás varios medios para contactarme y seguir mi trabajo.
+        Trato de hacer siempre algo nuevo con cada proyecto y de sacarle el 100%
+        de provecho a los conocimientos que he recolectado.
       </p>
       <div className="about-divider">
         <WhiteDivider />
-      </div> 
+      </div>
     </div>
   );
 }

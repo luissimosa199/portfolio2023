@@ -4,7 +4,7 @@ function Contact() {
   const contact = data.contact;
 
   return (
-    <div className="section contact">
+    <div id="contact" className="section contact">
       <h2>Contacto</h2>
       <img
         src="https://live.staticflickr.com/65535/52663144505_295a3c1f06_m.jpg"

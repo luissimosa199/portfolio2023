@@ -4,7 +4,7 @@ function Skills() {
   const skills = data.skills;
 
   return (
-    <div className="section skills">
+    <div id="skills" className="section skills">
       <h2>Skills</h2>
       <div className="skills-box">
         <ul>

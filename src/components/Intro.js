@@ -3,6 +3,7 @@ import PurpleDivider from "./PurpleDivider";
 function Intro() {
   return (
     <div className="section intro">
+      <h2>Luis Simosa</h2>
       <h2>Desarrollador web fullstack</h2>
       <p>
         Me gusta resolver problemas de manera simple, aprender nuevas

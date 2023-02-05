@@ -7,7 +7,14 @@ function Header() {
         height="95"
         alt="Luis Simosa Logo"
       />
-      <h1>Luis Simosa</h1>
+      <ul>
+        <input type="checkbox" name="menuicon" id="menuicon" className="menucheckbox"/>
+        <label htmlFor="menuicon" className="menuicon">≡</label>
+        <li><a href="#about">Sobre mi</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
     </header>
   );
 }

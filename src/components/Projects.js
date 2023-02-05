@@ -5,7 +5,7 @@ function Projects() {
   const projects = data.projects;
 
   return (
-    <div className="section projects">
+    <div id="projects" className="section projects">
       <h2>Proyectos recientes</h2>
       {projects.map((e) => {
         return (
