@@ -1,5 +1,5 @@
 import data from "../db/data.json";
-// import Carrousel from "./Carrousel";
+import Carrousel from "./Carrousel";
 import PurpleDivider from "./PurpleDivider";
 
 function Projects() {
@@ -16,8 +16,7 @@ function Projects() {
               <p>{e.description}</p>
             </div>
             <div className="projects-img">
-              {/* <Carrousel imgData={e.imgSrc} /> */}
-              <img src={e.imgSrc} alt={`${e.name} logo`} />
+              <Carrousel imgData={e.imgSrc} />
             </div>
             <div className="projects-tags">
               <ul>

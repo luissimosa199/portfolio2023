@@ -1,33 +1,34 @@
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-} from "pure-react-carousel";
-// import 'pure-react-carousel/dist/react-carousel.es.css';
+import { useState } from "react";
 
 function Carrousel({ imgData }) {
+  const [currentIdx, setCurrentIdx] = useState(0);
+
+  const prevPic = () => {
+    if (currentIdx === imgData.length - 1) {
+      setCurrentIdx(0);
+      return;
+    }
+    setCurrentIdx(currentIdx + 1);
+  };
+
+  const nextPic = () => {
+    if (currentIdx === 0) {
+      setCurrentIdx(imgData.length - 1);
+      return;
+    }
+    setCurrentIdx(currentIdx - 1);
+  };
+
   return (
-    <CarouselProvider
-      naturalSlideWidth={50}
-      naturalSlideHeight={50}
-      totalSlides={3}
-    >
-      <Slider>
-        <Slide index={0}>
-          <img src={imgData[0]} alt="First slide" />
-        </Slide>
-        <Slide index={1}>
-          <img src={imgData[2]} alt="Second slide" />
-        </Slide>
-        <Slide index={2}>
-          <img src={imgData[3]} alt="Third slide" />
-        </Slide>
-      </Slider>
-      <ButtonBack>Back</ButtonBack>
-      <ButtonNext>Next</ButtonNext>
-    </CarouselProvider>
+    <div className="projects-carousel">
+      <img src={imgData[currentIdx]} alt="" />
+      <button className="projects-nextbtn" onClick={nextPic}>
+        <img src="https://img.icons8.com/ios-filled/50/null/less-than.png" alt="less than icon" />
+      </button>
+      <button className="projects-prevbtn" onClick={prevPic}>
+        <img src="https://img.icons8.com/ios-filled/50/null/more-than.png" alt="greater than icon" />
+      </button>
+    </div>
   );
 }
 

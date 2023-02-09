@@ -251,8 +251,40 @@ header a:hover {
 
 .projects-img {
   width: 100%;
-  height: 50%;
+  height: 380px;
   box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+}
+
+.projects-carousel img {
+  width: fit-content;
+  max-width: 400px;
+  padding-top: 1rem;
+}
+
+.projects-carousel {
+  position: relative;
+}
+
+.projects-carousel button {
+  background: none;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.projects-carousel button:hover {
+  transform: scale(1.1);
+}
+
+.projects-nextbtn {
+  left: 0;
+  top: 140px;
+}
+
+.projects-prevbtn {
+  right: 0;
+  top: 140px;
 }
 
 .projects-links {
@@ -290,6 +322,7 @@ header a:hover {
   gap: 1rem;
   list-style-type: none;
   flex-wrap: wrap;
+  margin: 1rem 0;
 }
 
 .projects-tags ul li {
