@@ -70,7 +70,9 @@
       "name": "XPenses",
       "description": "Organizador de facturas y expensas para familias",
       "imgSrc": [
-        "https://live.staticflickr.com/65535/52663201468_b7e882bf85_n.jpg"
+        "https://live.staticflickr.com/65535/52663201468_b7e882bf85_n.jpg",
+        "https://live.staticflickr.com/65535/52680654209_fdd57c0962_n.jpg",
+        "https://live.staticflickr.com/65535/52680654189_b37ecee36c_n.jpg"
       ],
       "codeLink": "https://github.com/luissimosa199/xpenses-frontend",
       "liveLink": "https://xpenses-9b24.onrender.com",
@@ -89,7 +91,9 @@
       "name": "GBooks",
       "description": "Buscador de libros gratis en Google Books",
       "imgSrc": [
-        "https://live.staticflickr.com/65535/52269933104_032e0507ee_n.jpg"
+        "https://live.staticflickr.com/65535/52680515624_aec0e411f5_n.jpg",
+        "https://live.staticflickr.com/65535/52680669145_2460266893_n.jpg",
+        "https://i.giphy.com/media/RCc0ILCJkfmUigTSlc/giphy.webp"
       ],
       "codeLink": "https://github.com/luissimosa199/gbooks",
       "liveLink": "https://luissimosa199.github.io/gbooks/",
@@ -107,7 +111,7 @@
       "description": "App de organización de trabajo (Alkemy Skill Up)",
       "imgSrc": [
         "https://live.staticflickr.com/65535/52671549494_332dd6de6e.jpg",
-        "https://live.staticflickr.com/65535/52671549449_5ef0f9e5ff.jpg",
+        "https://live.staticflickr.com/65535/52671549449_a0291130bd_n.jpg",
         "https://s3.gifyu.com/images/goscrum3.gif"
       ],
       "codeLink": "https://github.com/luissimosa199/goscrum-ls",
